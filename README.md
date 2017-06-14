@@ -4,11 +4,15 @@ This repository contains a template [Vagrantfile][vagrantfile] for creating new 
 
 Getting Started
 ===============
-Install [VirtualBox][virtualbox] (> 5.1.22), [Vagrant][vagrant] (> 1.9.5), clone this repository and execute `vagrant up`.
+To quickly get started:
+- install [VirtualBox][virtualbox] (> 5.1.22);
+- install [Vagrant][vagrant] (> 1.9.5);
+- clone this repository;
+- execute `vagrant up`.
 
 Default Setup
 =============
-By default, **3** Cassandra nodes will be created. Node details are as follow:
+By default, 3 Cassandra nodes will be created. Node details are as follow:
 
 | Name | IP | RAM (MB) | CPUs | CPU Cap (%) |
 | :---: | :---: | :---: | :---: | :---: |
@@ -18,7 +22,7 @@ By default, **3** Cassandra nodes will be created. Node details are as follow:
 
 Custom Setup
 ============
-You can override default configuration with your own `config.rb` file. See `config.rb.sample` form more information.
+You can override default configuration with your own `config.rb` file. See `config.rb.sample` for more information.
 
 Default configuration assumes maximum number of 3 instances. If you want to create more instances, you will need to manually create `cassandra.yaml` configuration file for each new instance.
 
