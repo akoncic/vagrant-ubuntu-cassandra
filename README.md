@@ -24,8 +24,6 @@ Custom Setup
 ============
 You can override default configuration with your own `config.rb` file. See `config.rb.sample` for more information.
 
-Default configuration assumes maximum number of 3 instances. If you want to create more instances, you will need to manually create `cassandra.yaml` configuration file for each new instance.
-
 [vagrantfile]: https://www.vagrantup.com/docs/vagrantfile/
 [cassandra]: http://cassandra.apache.org/
 [ubuntu]: https://atlas.hashicorp.com/ubuntu/boxes/xenial64

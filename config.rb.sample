@@ -3,7 +3,7 @@ $instances = 3
 
 # Base name of the VM
 # Example: "cassandra-01", "cassandra-02", "cassandra-${instances}"
-$instance_name_prefix="cassandra"
+$instance_name_prefix = "cassandra"
 
 # VM
 $vm_memory = 1024
